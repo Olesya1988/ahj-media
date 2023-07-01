@@ -10,7 +10,6 @@ export default class Timeline {
   }
 
   init() {
-    // localStorage.clear();
     this.draw.drawUI(this.container);
     this.draw.drawModals(this.container);
     this.draw.drawWarning(this.container);
